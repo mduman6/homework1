@@ -1,1 +1,7 @@
-#
+#Maryann{
+    boarder: 2px solid White;
+}
+
+#Work{
+   boarder: 2px solid DarkBLue;
+}
