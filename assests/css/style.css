@@ -2,14 +2,64 @@ body {
     background-color: purple;
 
 }
+
 h1 {
-color:crimson;
+    color: crimson;
 }
 
 .camp-section {
-color:black;
+    color: black;
 }
 
 #nature {
-color:green;
+    color: green;
+}
+
+< !DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>My Project</title><style>
+
+/* Your existing CSS rules here */
+body {
+    margin: 0;
+}
+
+/* PASTE BOTH MEDIA QUERIES HERE */
+@media (max-width: 768px) {
+    /* styles */
+}
+
+@media (max-width: 480px) {
+    /* styles */
+}
+
+</style></head><body></body></html>
+
+/* ==========================================================================
+   1. BASE STYLES: MOBILE (320px and up)
+   ========================================================================== */
+body {
+    font-size: 16px;
+    background-color: white;
+}
+
+h1 {
+    color: black;
+}
+
+
+/* ==========================================================================
+   2. TABLET STYLES (768px and up)
+   ========================================================================== */
+
+/* First Query: For Tablets */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/*  DESKTOP STYLES (1200px and up) */
+@media (max-width: 480px) {
+    body {
+        background-color: lightgray;
+    }
 }
